@@ -1,0 +1,24 @@
+# ******* DICTIONARIES *******
+dicts = {
+    'Data':'Set of information arranged in a sequential manner',
+    'Phone':'A electronic device which is used to make phone calls, internet surfing, etc'
+}
+
+print(dicts['Data'])
+
+#Adding new items to dictionary
+dicts['Loop']='The actiion of doing something again and again'
+print(dicts)
+
+#Delete/Whip an existing dictionary
+# dicts={}
+# print(dicts)
+
+#Editing the current value in a dictionary
+dicts['Phone']='An electronic device'
+print(dicts)
+
+#For loop in dictionary
+for values in dicts:
+    print(values)
+    print(dicts[values])
